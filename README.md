@@ -51,10 +51,6 @@ XYDrone/Moving<br>
 
 ------------------------------
 
-License:MIT<br>
-
-------------------------------
-
 製作環境<br>
 VRCSDK 3.8.2<br>
 Modular Avatar 1.14.3<br>
