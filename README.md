@@ -7,7 +7,7 @@
 <br>
 注1：本組件依賴的XYDrone的原有設計意圖爲本地化使用，但本組件的傳送門功能需要修改並依賴參數爲同步才可用，即，這項改動會致使參數佔用增加，且原本在別人視角下不可見的無人機變的可見，如果你不想讓無人機在別人視角內可見，目前本組件提供了爲無人機本體改變透明度的折中選項<br>
 <br>
-注2：目前本組件受每個玩家於VRChat服務器之間的網絡延遲，會導致由飛離自身之後放置的傳送門存在玩家之間看到的位置不同步而有所差別，所看到傳送門的玩家的網絡延遲越大，落點偏離也會越大。目前尚未找到有效的杜絕或者減少偏離差值的方式，如果你有更好的建議或者解決方法，也希望你能在issue中反饋給我。如果無人機是在默認初始位置時放下傳送門則不受延遲影響，如果希望減少使用無人機飛出後放置傳送門由延遲導致的位置偏差，建議儘量不要拐彎和偏轉+無人機移動速度降到10%。 <br>
+注2：目前本組件受每個玩家於VRChat服務器之間的網絡延遲，會導致由飛離自身之後放置的傳送門存在玩家之間看到的位置不同步而有所差別，所看到傳送門的玩家的網絡延遲越大，落點偏離也會越大。目前尚未找到有效的杜絕或者減少偏離差值的方式，如果你有更好的建議或者解決方法，也希望你能在issue中反饋給我。如果無人機是在默認初始位置時放下傳送門則不受延遲影響，如果希望減少使用無人機飛出後放置傳送門由延遲導致的位置偏差，建議儘量不要拐彎和偏轉+無人機移動速度降到10%。<br>
 <br>
 注3：本組件中包含了3個VRC Station，由於VRChat對於Avatar的VRC Station的數量限制爲6個，所以需要你的Avatar中已經存在VRC Station不超過3個才能使本組件正常生效<br>
 
@@ -30,13 +30,13 @@ https://booth.pm/en/items/6305653<br>
 <br>
 1.確認已經將你的XYDrone安裝至你的Avatar的層級內<br>
 <br>
-2.將XYDronePortalLight.Prefab拖動到你的Avatar的層級內<br>
+2.將XYDroneExtra.Prefab拖動到你的Avatar的層級內<br>
 <br>
-3.完全解壓縮已經放入Avatar中的XYDronePortalLight預製件<br>
+3.完全解壓縮已經放入Avatar中的XYDroneExtra預製件<br>
 <br>
-4.在XYDronePortalLight預製件下找到"菜單"中的MA Menu Installer，選擇安裝到於你的XYDrone的"极简无人机<br>[完全本地]"內（如果你沒更改過XYDrone的默認目錄名稱將會是這個名字）<br>
+4.在XYDroneExtra預製件下找到"菜單"中的MA Menu Installer，選擇安裝到於你的XYDrone的"极简无人机<br>[完全本地]"內（如果你沒更改過XYDrone的默認目錄名稱將會是這個名字）<br>
 <br>
-5.將已經放在層級中的XYDronePortalLight預製件內的"約束點"拖至XYDrone層級內的Drone>Container>MotionPoint>Motion>Object內<br>
+5.將已經放在層級中的XYDroneExtra預製件內的"約束點"拖至XYDrone層級內的Drone>Container>MotionPoint>Motion>Object內<br>
 <br>
 6.將原XYDrone中的MA Parameters的以下參數勾選上同步按鈕：<br>
 XYDrone/Follow<br>
